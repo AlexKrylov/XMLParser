@@ -19,6 +19,7 @@ public class ListTable {
                 }
             }
         }
+        reader.close();
         return list;
     }
 }

@@ -24,6 +24,7 @@ public class Reader {
                 list.add(str);
             }
         }
+        reader.close();
         return list;
     }
 
